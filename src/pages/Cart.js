@@ -7,7 +7,6 @@ export function Cart() {
     <Col>
       <PriceCard/>
       <PriceCard/>
-      <PriceCard/>
     </Col>
     </>
   );
