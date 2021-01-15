@@ -1,11 +1,14 @@
 import {PriceCard} from '../components/Card'
+import {Row} from 'react-bootstrap'
 export function Home() {
   return (
   <>
   Hello Home
-  <PriceCard/>
-  <PriceCard/>
-  <PriceCard/>
+  <Row>
+    <PriceCard/>
+    <PriceCard/>
+    <PriceCard/>
+  </Row>
   </>
   )
 }
