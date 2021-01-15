@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { Card, Form, Row, Col } from 'react-bootstrap';
-import { PriceCard } from '../components';
+import { PriceCard } from '../';
 
 export function Store() {
   const [button, setButton] = useState('Any Price');

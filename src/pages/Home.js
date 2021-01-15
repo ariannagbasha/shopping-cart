@@ -1,4 +1,4 @@
-import {PriceCard} from '../components/Card'
+import {PriceCard} from '../'
 import {Row} from 'react-bootstrap'
 export function Home() {
   return (

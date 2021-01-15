@@ -1,5 +1,5 @@
-import { PriceCard } from '../components/Card'
-import { PaymentDetails } from '../components/Payment'
+import { PriceCard } from '../'
+import { PaymentDetails } from '../'
 import { Col, Row } from 'react-bootstrap'
 
 export function Cart() {
