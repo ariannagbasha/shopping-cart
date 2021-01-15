@@ -1,3 +1,9 @@
+import { Navbar } from 'react-bootstrap';
+
 export function Footer() {
-  return <>Footer Bruh </>;
+  return (
+    <Navbar fixed='bottom' bg='light'>
+      <Navbar.Brand>&copy; Copyright 2021, Sauce Em Up!</Navbar.Brand>
+    </Navbar>
+  );
 }
