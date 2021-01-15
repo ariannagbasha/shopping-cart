@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Container>
         <Switch>
-          <Route path='/' component={PAGES.Home} />
+          <Route exact path='/' component={PAGES.Home} />
           <Route path='/cart' component={PAGES.Cart} />
           <Route path='/checkout' component={PAGES.Checkout} />
           <Route path='/product' component={PAGES.Product} />
