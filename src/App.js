@@ -10,9 +10,9 @@ function App() {
       <Container>
         <Switch>
           <Route path='/' component={PAGES.Home} />
-          <Route path='/cart' component={PAGES.Cart} />
-          <Route path='/checkout' component={PAGES.Checkout} />
-          <Route path='/product' component={PAGES.Product} />
+          {/* Cart is component for Store page */}
+          <Route path='/store' component={PAGES.Cart} />
+          <Route path='/cart' component={PAGES.Checkout} />
           <Route path='*' component={PAGES.NotFound} />
         </Switch>
       </Container>

@@ -6,12 +6,24 @@ export function Header() {
     <>
       <Navbar>
         <Navbar.Brand as={NavLink} to='/'>
-          Kapstone
+          Awesome Shop
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-end'>
           <Navbar.Text>
-            <Link to='/login'>Login</Link>
+            <Link to='/'>Home</Link>
+          </Navbar.Text>
+          <Navbar.Text>
+             | 
+          </Navbar.Text>
+          <Navbar.Text>
+            <Link to='/store'>Store</Link>
+          </Navbar.Text>
+          <Navbar.Text>
+             | 
+          </Navbar.Text>
+          <Navbar.Text>
+            <Link to='/cart'>Cart</Link>
           </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
