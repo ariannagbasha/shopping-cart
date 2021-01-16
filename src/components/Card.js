@@ -9,7 +9,7 @@ export function PriceCard(props) {
         src='./hair.jpg'
       />
       <Card.Body>
-        <Card.Title>Rogaine</Card.Title>
+        <Card.Title>Rogaine
         <Card.Text>$1,000,000</Card.Text>
       </Card.Body>
       <Button> Add to Cart</Button>

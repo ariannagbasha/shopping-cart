@@ -6,7 +6,6 @@ import env from './env';
 async function start() {
   try {
     const app = express();
-    app.use(cors());
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
     app.get('/', (req, res) => {
